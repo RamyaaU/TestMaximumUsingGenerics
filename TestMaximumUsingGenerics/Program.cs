@@ -11,6 +11,12 @@ namespace TestMaximumUsingGenerics
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to MaximumTest using Generics!");
+            int MaximumInt = MaximumNumberCheck.MaximumIntegerNumber(30, 20, 10);
+            Console.WriteLine("Maximum integer value is : " + MaximumInt);
+            float MaximumFloat = MaximumNumberCheck.MaximumFloatNumber(111.2f, 22.45f, 78.56f);
+            Console.WriteLine("Maximum float value is : " + MaximumFloat);
+            string MaximumString = MaximumNumberCheck.MaximumStringValue("Apple", "Peach", "Banana");
+            Console.WriteLine("Maximum string value is : " + MaximumString);
         }
     }
 }
