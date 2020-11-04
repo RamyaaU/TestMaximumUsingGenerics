@@ -106,16 +106,16 @@ namespace TestMaximumUsingGenerics
             }
 
             /// <summary>
-            /// Maximums the method.
+            /// Stores the max value on max variable and returns it
             /// </summary>
             /// <returns></returns>
-            public T MaxMethod()
+        public T MaxMethod()
             {
                 var max = MaxValue(this.value);
                 return max;
             }
             /// <summary>
-            /// Prints the maximum value.
+            /// Stores the max value on max variable and prints it
             /// </summary>
             public void PrintMaxValue()
             {
