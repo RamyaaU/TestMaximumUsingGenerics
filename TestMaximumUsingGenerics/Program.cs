@@ -11,6 +11,8 @@ namespace TestMaximumUsingGenerics
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to MaximumTest using Generics!");
+            int MaximumInt = MaximumNumberCheck.MaximumIntegerNumber(30, 20, 10);
+            Console.WriteLine("Maximum integer value is : " + MaximumInt);
         }
     }
 }
